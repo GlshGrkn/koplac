@@ -1,0 +1,202 @@
+.foto{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+
+
+
+}
+
+
+
+.container-br {
+  height: 1000px;
+  width: 100%;
+  background: url('..//IMAGES//homepage.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+
+
+}
+
+
+
+.small-text{
+  position: absolute;
+     top: 45%;
+     left: 0;
+     width: 100%;
+     color: white;
+     font-size: 80px;
+
+
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #222;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+
+
+
+
+.carousel-inner img {
+    width:50%;
+    height: 230px;
+   margin-top:10px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 35%;
+
+}
+
+.row-mg-top{
+  margin-top: 45%;
+}
+
+.btn-login,
+.btn-login:active,
+.btn-login:visited,
+.btn-login:focus {
+    background-color: #ffc168 !important;
+    border-color: #ffc168 !important;
+    color: #fff !important;
+    font-size: 20px !important;
+    font-weight: 200px !important;
+    padding: 20px !important;
+}
+
+.btn-login:hover {
+  background-color: #ffaf3d !important;
+  border-color: #ffaf3d !important;
+}
+
+.btn-signup,
+.btn-signup:active,
+.btn-signup:visited,
+.btn-signup:focus {
+  background-color: #00a98f !important;
+  border-color: #00a98f !important;
+  color : #fff !important;
+  font-size: 20px !important;
+  font-weight: 200px !important;
+  padding: 20px !important;
+}
+
+.btn-signup:hover {
+  background-color: #02967f !important;
+  border-color: #02967f !important;
+}
+
+.btn-download {
+  background-color: #00a98f !important;
+  color: #fff !important;
+}
+
+.float-right {
+  float : right;
+}
+
+.btn-mg-top {
+  margin-top: 10%;
+}
+
+.carousel-content {
+position:absolute;
+bottom: 50%;
+right: 30%;
+z-index: 70;
+color: black;
+text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.img-responsive{
+
+  width:600px;
+  height:700px;
+ margin-top:0px;
+}
+.resim{
+margin-left: 600px;
+}
+.container-bg {
+    background:#ffffff;
+}
+
+h2.ml{
+  margin-left: 5%;
+}
+
+.ll{
+  margin-top: 20%;
+  margin-left: 100%;
+  transform: translate(-50%,-50%);
+}
+.row-fluid {
+  height: 100%;
+  display : flex;
+  align-items : center;
+  justify-content :center;
+}
+
+.image {
+  /*Relevant part for image div*/
+  position : absolute;
+  <img src: "..//IMAGES//Launch_screen__htc-onea9-black-portrait.png">
+  z-index: 100;
+
+  /*Less relevant part for image div*/
+  width : 50px;
+  height : 50px;
+  background-color:green;
+}
+
+.features-img {
+  background: url('../IMAGES/image_for_features.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.green{
+
+  color:#00a98f !important;
+}
+.pull-right {
+     float: right;
+
+  }
