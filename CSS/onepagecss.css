@@ -203,4 +203,8 @@ h2.ml{
 .img-responsive.center-block {
     max-height: 400px;
     max-width: 195px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
