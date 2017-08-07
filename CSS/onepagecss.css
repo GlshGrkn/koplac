@@ -14,7 +14,7 @@
 .container-br {
   height: 1000px;
   width: 100%;
-  background: url('..//IMAGES//homepage.jpg');
+  background: url('../IMAGES/homepage.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -94,7 +94,7 @@
     border-color: #ffc168 !important;
     color: #fff !important;
     font-size: 20px !important;
-    font-weight: 200px !important;
+    font-weight: 200 !important;
     padding: 20px !important;
 }
 
@@ -111,7 +111,7 @@
   border-color: #00a98f !important;
   color : #fff !important;
   font-size: 20px !important;
-  font-weight: 200px !important;
+  font-weight: 200 !important;
   padding: 20px !important;
 }
 
@@ -174,9 +174,8 @@ h2.ml{
 .image {
   /*Relevant part for image div*/
   position : absolute;
-  <img src: "..//IMAGES//Launch_screen__htc-onea9-black-portrait.png">
+  background: url('../IMAGES/Launch_screen__htc-onea9-black-portrait.png');
   z-index: 100;
-
   /*Less relevant part for image div*/
   width : 50px;
   height : 50px;
@@ -200,3 +199,8 @@ h2.ml{
      float: right;
 
   }
+
+.img-responsive.center-block {
+    max-height: 400px;
+    max-width: 195px;
+}
