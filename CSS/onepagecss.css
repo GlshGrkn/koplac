@@ -1,3 +1,12 @@
+
+.navbar .navbar-brand {
+    max-height: 70px;
+    max-width: 100%;
+    overflow: visible;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 html, body {
     overflow-x: hidden;
     font-size: 16px;
@@ -9,7 +18,10 @@ html, body {
 }
 
 .logo {
-    padding-left: 20px;
+    padding-left: 10px;
+
+
+
 }
 
 .text-center {
@@ -237,4 +249,3 @@ h2.ml2 {
     height: 40px; /* fixed header height*/
     margin: -40px 0 0; /* negative fixed header height */
 }
-
