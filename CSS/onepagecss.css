@@ -9,7 +9,7 @@
 
 html, body {
     overflow-x: hidden;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .no-padding {
@@ -18,14 +18,20 @@ html, body {
 }
 
 .logo {
-    padding-left: 10px;
-
-
-
+    padding-left: 20px;
 }
+
+.text-left {
+    text-align: left;
+}
+
 
 .text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .foto {
@@ -136,6 +142,10 @@ html, body {
     color: #fff !important;
 }
 
+.float-left {
+    float: right;
+}
+
 .float-right {
     float: right;
 }
@@ -152,6 +162,15 @@ html, body {
     margin-left: 28%;
 }
 
+.text-pd-right {
+    padding-right: 10%;
+}
+
+.text-pd-left {
+    padding-left: 10%;
+}
+
+
 .carousel-content {
     position: absolute;
     bottom: 50%;
@@ -162,7 +181,6 @@ html, body {
 }
 
 .img-responsive {
-
     width: 600px;
     height: 700px;
     margin-top: 0;
@@ -176,16 +194,8 @@ html, body {
     background: #ffffff;
 }
 
-h2.ml, h2.ml2 {
-    margin-left: 5%;
-}
-
-h2.ml2 {
-    color: white;
-}
-
-.light-gray {
-    color: #e5e5e5;
+h1.ml {
+    margin-left: 1%;
 }
 
 .ll {
@@ -217,12 +227,15 @@ h2.ml2 {
 }
 
 .green {
-
     color: #00a98f !important;
 }
 
-.pull-right {
-    float: right;
+.white {
+    color: white;
+}
+
+.light-gray {
+    color: #e5e5e5;
 }
 
 .img-responsive.center-block {
@@ -234,7 +247,11 @@ h2.ml2 {
     transform: translate(-50%, -50%);
 }
 
-.btn span.icon {
+span.icon {
+
+}
+
+span.icon-google {
     background: url('../IMAGES/google_play.png') no-repeat;
     background-size: contain;
     float: left;
@@ -243,9 +260,23 @@ h2.ml2 {
     margin-right: 5px;
 }
 
+span.icon-boot {
+    background: url('../IMAGES/icon/Boot.png') no-repeat;
+    background-size: contain;
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
 :target:before {
     content: "";
     display: block;
     height: 40px; /* fixed header height*/
     margin: -40px 0 0; /* negative fixed header height */
+}
+
+.side-margins {
+    margin-right: 30px;
+    margin-left: 30px;
 }
