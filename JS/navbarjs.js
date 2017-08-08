@@ -6,7 +6,7 @@ $(document).ready(function () {
      *
      * @type {{flagAdd: boolean, elements: string[], add: Function, remove: Function}}
      */
-    var myNavBar = {
+    let myNavBar = {
 
         flagAdd: true,
 
@@ -18,7 +18,7 @@ $(document).ready(function () {
 
         add: function () {
             if (this.flagAdd) {
-                for (var i = 0; i < this.elements.length; i++) {
+                for (let i = 0; i < this.elements.length; i++) {
                     document.getElementById(this.elements[i]).className += " fixed-theme";
                 }
                 this.flagAdd = false;
@@ -26,7 +26,7 @@ $(document).ready(function () {
         },
 
         remove: function () {
-            for (var i = 0; i < this.elements.length; i++) {
+            for (let i = 0; i < this.elements.length; i++) {
                 document.getElementById(this.elements[i]).className =
                     document.getElementById(this.elements[i]).className.replace(/(?:^|\s)fixed-theme(?!\S)/g, '');
             }
@@ -51,13 +51,13 @@ $(document).ready(function () {
      */
     function offSetManager() {
 
-        var yOffset = 0;
-        var currYOffSet = window.pageYOffset;
+        let yOffset = 0;
+        let currYOffSet = window.pageYOffset;
 
         if (yOffset < currYOffSet) {
             myNavBar.add();
         }
-        else if (currYOffSet == yOffset) {
+        else if (currYOffSet === yOffset) {
             myNavBar.remove();
         }
 
@@ -66,7 +66,7 @@ $(document).ready(function () {
     /**
      * bind to the document scroll detection
      */
-    window.onscroll = function (e) {
+    window.onscroll = function () {
         offSetManager();
     };
 
