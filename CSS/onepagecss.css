@@ -3,6 +3,11 @@ html, body {
     font-size: 16px;
 }
 
+.no-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 .logo {
     padding-left: 20px;
 }
