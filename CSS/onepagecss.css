@@ -1,4 +1,3 @@
-
 .navbar .navbar-brand {
     max-height: 70px;
     max-width: 100%;
@@ -54,7 +53,6 @@ html, body {
     width: 100%;
     color: white;
     font-size: 80px;
-
 }
 
 .navbar-brand {
@@ -96,7 +94,6 @@ html, body {
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 35%;
-
 }
 
 .row-mg-top {
@@ -261,12 +258,13 @@ span.icon-google {
 }
 
 span.icon-boot {
-    background: url('../IMAGES/icon/Boot.png') no-repeat;
+    background: blue url('../IMAGES/icon/Boot.png') no-repeat;
     background-size: contain;
     float: right;
-    width: 50px;
-    height: 50px;
+    width: 52.5px;
+    height: 37.5px;
     margin-right: 5px;
+    margin-top: 20px;
 }
 
 :target:before {
@@ -279,4 +277,40 @@ span.icon-boot {
 .side-margins {
     margin-right: 30px;
     margin-left: 30px;
+}
+
+@media (max-width: 832px) {
+    .carousel-h2 {
+        font-size: large;
+    }
+}
+
+@media (max-width: 689px) {
+    html, body {
+        font-size: 14px;
+    }
+
+    .small-text {
+        font-size: 40px;
+    }
+
+    h1 {
+        font-size: large;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    .carousel-h2 {
+        font-size: x-small;
+    }
+
+    .btn-mg-right {
+        margin-right: 0;
+    }
+
+    .btn-mg-left {
+        margin-left: 0;
+    }
 }
