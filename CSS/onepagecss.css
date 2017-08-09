@@ -17,7 +17,7 @@ html, body {
 }
 
 .logo {
-    padding-left: 20px;
+    padding-left: 5px;
 }
 
 .text-left {
@@ -60,7 +60,7 @@ html, body {
 }
 
 .navbar-container {
-    padding: 20px 0 20px 0;
+    padding: 20px 0;
 }
 
 .navbar.navbar-fixed-top.fixed-theme {
@@ -140,7 +140,7 @@ html, body {
 }
 
 .float-left {
-    float: right;
+    float: left;
 }
 
 .float-right {
@@ -245,27 +245,54 @@ h1.ml {
 }
 
 span.icon {
-
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-span.icon-google {
-    background: url('../IMAGES/google_play.png') no-repeat;
-    background-size: contain;
+.icon-google {
+    background: url('../IMAGES/google_play.png');
     float: left;
     width: 30px;
     height: 30px;
     margin-right: 5px;
 }
 
-span.icon-boot {
-    background: blue url('../IMAGES/icon/Boot.png') no-repeat;
-    background-size: contain;
-    float: right;
+.icon-features {
     width: 52.5px;
     height: 37.5px;
-    margin-right: 5px;
-    margin-top: 20px;
+    margin-top: 22px;
 }
+
+.icon-margin-left {
+    margin-left: 20px;
+}
+
+.icon-boot {
+    background: url('../IMAGES/icon/Boot.png');
+    margin-top: 15px;
+}
+
+.icon-nav {
+    background: url('../IMAGES/icon/navigation.png');
+    margin-right: -12px;
+}
+
+.icon-levels {
+    background: url('../IMAGES/icon/Multiple-levels.png');
+}
+
+.icon-fun {
+    background: url('../IMAGES/icon/Entertainment.png');
+}
+
+.icon-share {
+    background: url('../IMAGES/icon/Share.png');
+}
+
+.icon-easy {
+    background: url('../IMAGES/icon/easy-to-use.png');
+}
+
 
 :target:before {
     content: "";
@@ -299,11 +326,11 @@ span.icon-boot {
     }
 
     h1 {
-        font-size: large;
+        font-size: x-large;
     }
 
     h2 {
-        font-size: medium;
+        font-size: large;
     }
 
     .carousel-h2 {
@@ -317,4 +344,25 @@ span.icon-boot {
     .btn-mg-left {
         margin-left: 0;
     }
+}
+
+@media (max-width: 992px) {
+    div section div div.text-right {
+        text-align: left;
+    }
+
+    .text-pd-right {
+        padding-right: 0;
+        padding-left: 10%;
+    }
+
+    .icon-features {
+        float: left;
+    }
+
+    .icon-margin-left {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
 }
