@@ -279,6 +279,10 @@ span.icon-boot {
     margin-left: 30px;
 }
 
+.margin-top {
+    margin-top: 50px;
+}
+
 @media (max-width: 832px) {
     .carousel-h2 {
         font-size: large;
